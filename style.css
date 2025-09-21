@@ -9,37 +9,39 @@ body {
 
 /* Header and Navigation */
 header {
-    background-color: #003366;
-    color: #fff;
+    background-color: #0d6efd; /* Blue header */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    flex-direction: column;
 }
 
-header .logo img {
-    height: 50px;
-}
-
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.logo-strip {
+    width: 100%;
+    background-color: #ffffff; /* White strip for logo */
     display: flex;
+    justify-content: center;
+    padding: 15px 0;
 }
 
-header nav a {
+.logo {
+    height: 60px; /* Adjust as needed */
+}
+
+nav {
+    padding: 10px 0;
+}
+
+nav a {
     color: #fff;
     text-decoration: none;
-    margin-left: 1.5rem;
-    font-weight: bold;
-    transition: color 0.3s;
+    margin: 0 15px;
+    font-weight: 500;
 }
 
-header nav a:hover {
-    color: #3399CC;
+nav a:hover {
+    text-decoration: underline;
 }
-
 /* Call to Action Button */
 .cta-button {
     display: inline-block;
