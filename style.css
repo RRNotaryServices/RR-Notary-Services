@@ -49,8 +49,8 @@ body {
     background: linear-gradient(to right, #e6f0ff, #ffffff);
 }
 
-.hero-content h1 {
-    font-size: 3rem;
+.hero-content h2{
+    font-size: 24px;
     color: navy;
     margin-bottom: 20px;
 }
