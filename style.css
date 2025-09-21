@@ -12,12 +12,12 @@ header {
     align-items: center;
     background-color: #ffffff; /* White strip */
     padding: 0 40px; /* Remove vertical padding */
-    height: 120px; /* Fixed strip height */
+    height: 200px; /* Fixed strip height */
     border-bottom: 2px solid #001f3f;
 }
 
 .logo-container {
-    height: 100%; /* Fill the header strip */
+    height: 200px;/* Fill the header strip */
 }
 
 .logo {
