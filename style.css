@@ -1,12 +1,9 @@
-
 /* Base Styles */
 * { margin:0; padding:0; box-sizing:border-box; font-family:'Roboto', sans-serif; }
-body { background:#f5faff; color:#1a1a1a; }
 
 /* Header */
-/* Header */
 header {
-    background-color: #001f3f; /* Navy blue for overall page */
+    background-color: #001f3f; /* Navy page background */
 }
 
 .header-top {
@@ -17,19 +14,22 @@ header {
     padding: 15px 40px;
     flex-wrap: wrap;
     border-bottom: 2px solid #001f3f;
+    height: 80px; /* Fixed strip height */
 }
 
 .logo-container {
     display: inline-block;
+    height: 100%; /* Fill strip height */
 }
 
 .logo {
-    height: 60px; /* Adjust size */
+    height: 100%; /* Logo fills container */
+    width: auto;
     display: block;
 }
 
 nav a {
-    color: #001f3f; /* Navy text for links */
+    color: #001f3f;
     text-decoration: none;
     margin-left: 25px;
     font-weight: 500;
@@ -43,34 +43,42 @@ nav a:hover {
 /* Body & Hero Section */
 body {
     background-color: #001f3f; /* Navy page background */
-    color: #ffffff; /* White text */
+    color: #ffffff;
 }
 
 #hero {
-    background: #001f3f;
+    background: linear-gradient(to right, #e6f0ff, #ffffff); /* Hero gradient */
     text-align: center;
     padding: 120px 20px;
 }
 
-#hero h1, #hero p {
-    color: #ffffff;
+.hero-content h1 {
+    font-size: 3rem;
+    color: #0d6efd;
+    margin-bottom: 20px;
 }
-/* Hero Section */
-#hero {
-    background: linear-gradient(to right, #e6f0ff, #ffffff);
-    text-align:center; padding:120px 20px;
+
+.hero-content p {
+    font-size: 1.3rem;
+    color: #555;
+    margin-bottom: 30px;
 }
-.hero-content h1 { font-size:3rem; color:#0d6efd; margin-bottom:20px; }
-.hero-content p { font-size:1.3rem; color:#555; margin-bottom:30px; }
+
 .cta-button {
-    background:#0d6efd; color:#fff; padding:15px 35px; border-radius:5px;
-    font-weight:500; text-decoration:none; transition:0.3s;
+    background: #0d6efd;
+    color: #fff;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.3s;
 }
-.cta-button:hover { background:#0056b3; }
 
-0056b3; }
+.cta-button:hover {
+    background: #0056b3;
+}
 
-
+/* Footer */
 footer {
     background-color: #001f3f;
     color: #ffffff;
@@ -84,11 +92,12 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
     nav {
         margin-top: 10px;
     }
+
     nav a {
         margin: 8px 10px;
     }
-}
 }
