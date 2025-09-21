@@ -11,19 +11,18 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #ffffff; /* White strip */
-    padding: 0 40px;
-    height: 80px; /* Fixed header height */
+    padding: 0 40px; /* Remove vertical padding */
+    height: 120px; /* Fixed strip height */
     border-bottom: 2px solid #001f3f;
 }
 
 .logo-container {
-    height: 100%;
+    height: 100%; /* Fill the header strip */
 }
 
 .logo {
-    height: 100%; /* Fill header height */
-    width: auto;
-    display: block;
+    height: 200px; /* Set logo height explicitly */
+    width: 200px;  /* Maintain aspect ratio */
 }
 
 nav a {
