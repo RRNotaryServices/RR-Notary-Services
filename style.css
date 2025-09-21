@@ -23,8 +23,8 @@ header {
 }
 
 .logo {
-    height: 100%; /* Logo fills container */
-    width: auto;
+    height: 500px; /* Logo fills container */
+    width: 500px;
     display: block;
 }
 
