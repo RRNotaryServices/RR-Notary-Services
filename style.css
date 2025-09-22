@@ -9,18 +9,20 @@ header {
 /* Header */
 .header-top {
     display: flex;
-    justify-content: space-between; /* logo left, nav right */
-    align-items: center;            /* vertical alignment */
+    flex-direction: column;   /* stack logo on top of nav */
+    align-items: center;      /* center horizontally */
     background-color: #ffffff;
-    padding: 3px: 5px;
+    padding: 0;               /* remove padding */
+    margin: 0;                /* ensure no spacing */
 }
 
 /* Logo */
 .logo {
-    height: 200px;   /* adjust as needed */
+    height: 220px;   /* make bigger (adjust as needed) */
     width: auto;
+    display: block;
+    margin: 0 auto;  /* center the image */
 }
-
 /* Navigation */
 nav {
     display: flex;
