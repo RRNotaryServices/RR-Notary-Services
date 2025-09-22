@@ -6,35 +6,36 @@ header {
     background-color: #001F3F; /* Navy for rest of page */
 }
 
+/* Header */
 .header-top {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff; /* White strip */
-    padding: 0 40px; /* Remove vertical padding */
-    height: 100px; /* Fixed strip height */
-    border-bottom: 2px solid #001f3f;
+    justify-content: space-between; /* logo left, nav right */
+    align-items: center;            /* vertical alignment */
+    background-color: #ffffff;
+    padding: 15px 30px;
 }
 
-.logo-container {
-    height: 100px;/* Fill the header strip */
-}
-
+/* Logo */
 .logo {
-    height: 100px; /* Set logo height explicitly */
-    width: 100px;  /* Maintain aspect ratio */
+    height: 60px;   /* adjust as needed */
+    width: auto;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    gap: 20px; /* space between links */
 }
 
 nav a {
-    color:  #001F3F;
     text-decoration: none;
-    margin-left: 25px;
+    color: #000080; /* navy */
     font-weight: 500;
-    transition: 0.3s;
+    font-size: 16px;
 }
 
 nav a:hover {
-    text-decoration: none;
+    color: #1A237E; /* modern navy hover */
 }
 
 /* Body & Hero */
