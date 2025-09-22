@@ -17,7 +17,7 @@ header {
 
 /* Logo */
 .logo {
-    height: 60px;   /* adjust as needed */
+    height: 200px;   /* adjust as needed */
     width: auto;
 }
 
@@ -41,7 +41,7 @@ nav a:hover {
 /* Body & Hero */
 body {
     background-color: #001f3f; /* Navy page background */
-    color: #ffffff;
+    color: #001F3F;
 }
 
 #hero {
@@ -58,7 +58,7 @@ body {
 
 .hero-content p {
     font-size: 1.3rem;
-    color: #ffffff;
+    color: #001F3F;
     margin-bottom: 30px;
 }
 
